@@ -6,9 +6,9 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Position p = new Position(3, 4);
+            Chessboard cb = new Chessboard(8, 8);
 
-            Console.WriteLine("Posição: "+ p);
+            Screen.ShowScreen(cb);
         }
     }
 }
